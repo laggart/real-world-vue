@@ -7,8 +7,8 @@ import EventCard from './components/EventCard.vue'
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Events</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="{ name: 'EventList' }">Events</RouterLink>
+        <RouterLink :to="{ name: 'About' }">About</RouterLink>
       </nav>
     </div>
   </header>
