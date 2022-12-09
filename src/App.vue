@@ -51,6 +51,10 @@ nav a:first-of-type {
   border: 0;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 @media (min-width: 1024px) {
   header {
     display: flex;
